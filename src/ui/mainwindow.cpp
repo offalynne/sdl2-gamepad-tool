@@ -100,7 +100,7 @@ MainWindow::MainWindow(QWidget *parent) :
     QUrl dburl(GamepadDatabase::DB_URL);
     m_downloader = new FileDownloader(dburl, this);
     connect(m_downloader, &FileDownloader::downloaded, this, &MainWindow::dbFileDownloaded);
-    Logger::instance().info(QStringLiteral("Checking if new mappings available from github: https://github.com/gabomdq/SDL_GameControllerDB"));
+    Logger::instance().info(QStringLiteral("Checking if new mappings available from github: https://github.com/mdqinc/SDL_GameControllerDB"));
 }
 
 MainWindow::~MainWindow() {
