@@ -10,7 +10,7 @@ public:
     static constexpr const char* DB_FILE = "gamecontrollerdb.txt";
     static constexpr const char* LOCAL_DB_FILE = "gamecontrollerdb.local.txt";
     static constexpr const char* DB_URL =
-        "https://raw.githubusercontent.com/gabomdq/SDL_GameControllerDB/master/gamecontrollerdb.txt";
+        "https://raw.githubusercontent.com/mdqinc/SDL_GameControllerDB/master/gamecontrollerdb.txt";
 
     // Set up the data directory and copy bundled DB if needed.
     // appDirPath is QApplication::applicationDirPath().
