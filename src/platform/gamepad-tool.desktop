@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=SDL2 Gamepad Tool
+Comment=Simple GUI tool to create and modify gamepad mappings for SDL2
+Exec=gamepad-tool
+Icon=gamepad-tool
+Terminal=false
+Type=Application
+Categories=Utility;Game;

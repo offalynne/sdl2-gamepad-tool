@@ -1,0 +1,15 @@
+.DS_Store
+*.pro.user
+build/
+cmake-build/
+
+# Secrets
+.env
+
+# Build artifacts
+*.deb
+*.dmg
+*.zip
+*.exe
+*.AppImage
+*.tar.gz
